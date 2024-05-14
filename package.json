@@ -1,0 +1,13 @@
+{
+  "name": "parallel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linux": "node first.js & node second.js",
+    "windows-cmd": "start node first.js & start node second.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
